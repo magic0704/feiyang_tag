@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">  
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+body
+  { 
+    background:url(1_03.png);
+    //background-color: yellow;
+    background-repeat:no-repeat;
+    background-position:center;
+	
+  }
+</style>
+</head>
+
+<body >
+
+<div  class="container" style ='margin: 100px auto 100px auto;'>
+	<div class="container-fluid" id="XS">
+	<div class="row-fluid" style ='margin: auto auto auto auto;'>
+		<div class="col-xs-3 span3" style ='margin: 0px 0px 0px 0px;'>
+			 <button class="btn btn-block" type="button">按钮</button>
+		</div>
+		<div class="col-xs-3 span3">
+			 <button class="btn btn-block" type="button">按钮</button>
+		</div>
+		<div class="col-xs-3 span3">
+			 <button class="btn btn-block" type="button">按钮</button>
+		</div>
+		<div class="col-xs-3 span3">
+			 <button class="btn btn-block" type="button">按钮</button>
+		</div>
+	</div>
+	</br>
+	<div class="row-fluid" style ='margin: 100px auto 100px auto;'>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+        </div>
+	</br>
+	<div class="row-fluid" style ='margin: 100px auto 100px auto;'>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+        </div>
+	</br>
+	<div class="row-fluid" style ='margin: 100px auto 100px auto;'>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+                <div class="col-xs-3 span3">
+                         <button class="btn btn-block" type="button">按钮</button>
+                </div>
+        </div>
+
+
+	</div>
+         <!-- <input type="checkbox" name="tag3" class="btn btn-block btn-large"  id="blue" value="war3">-->
+      </fieldset>
+      <div class="row-fluid" style ='margin: 50px auto auto auto;'>
+      <div class="span12">
+      <input type="submit" class="btn btn-block" type="button" value="提交">
+	</div>
+	</div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+			

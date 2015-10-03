@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+ 
+{% block title %}宅文化{% endblock %}
+
+{% block content %}
+
+<div class='ui-grid-b'>
+{%for i in taglist%}
+<button  class=" ui-btn ui-shadow ui-corner-all">{{i}}</button>
+{%endfor%}
+</div>
+
+{% endblock %}

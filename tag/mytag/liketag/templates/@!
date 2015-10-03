@@ -1,0 +1,327 @@
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">  
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+body
+  { 
+    background:url(1_03.png);
+    //background-color: yellow;
+    background-repeat:no-repeat;
+    background-position:center;
+	
+  }
+</style>
+</head>
+
+<body >
+
+<div class="container-fluid" id="XS" style ='margin: 150px 0px 0px 0px;'>
+	<div class="row-fluid" style ='margin: auto auto auto auto;'>
+		<div class="col-xs-4 span4" style ='margin: 0px 0px 0px 0px;'>
+			 <!--<button class="btn btn-block btn-large" id="btn11" type="button" style="background-color: yellow" onclick="changecolor()">按钮</button>-->
+			 <input type='button' class="btn btn-block btn-large" id="btn11" type="button" onclick="changecolor11()" value="暴走漫画" >
+		</div>
+		<div class="col-xs-4 span4">
+			  <input type='button' class="btn btn-block btn-large" id="btn12" type="button" onclick="changecolor12()" value="德玛西亚" >
+		</div>
+		<div class="col-xs-4 span4">
+			  <input type='button' class="btn btn-block btn-large" id="btn13" type="button" onclick="changecolor13()" value="魔兽世界" >
+		</div>
+		<!--<div class="col-xs-3 span3">
+			  <input type='button' class="btn btn-block btn-large" id="btn14" type="button" onclick="changecolor14()" value="Click Me!" >
+		</div>-->
+	</div>
+	</br>
+	<div class="row-fluid" style ='margin: 100px auto 100px auto;'>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn21" type="button" onclick="changecolor21()" value="海贼王" >
+                </div>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn22" type="button" onclick="changecolor22()" value="英雄联盟" >
+                </div>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn23" type="button" onclick="changecolor23()" value="DOTA2" >
+                </div>
+               <!-- <div class="col-xs-3 span3">
+                          <input type='button' class="btn btn-block btn-large" id="btn24" type="button" onclick="changecolor24()" value="Click Me!" >
+                </div>-->
+        </div>
+	</br>
+	<div class="row-fluid" style ='margin: 100px auto 100px auto;'>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn31" type="button" onclick="changecolor31()" value="使命召唤" >
+                </div>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn32" type="button" onclick="changecolor32()" value="鬼畜" >
+                </div>
+                <div class="col-xs-4 span4">
+                          <input type='button' class="btn btn-block btn-large" id="btn33" type="button" onclick="changecolor33()" value="萝莉" >
+                </div>
+                <!--<div class="col-xs-3 span3">
+                          <input type='button' class="btn btn-block btn-large" id="btn34" type="button" onclick="changecolor34()" value="Click Me!" >
+                </div>-->
+        </div>
+	</br>
+	<div class="row-fluid" style ='margin: 80px auto 100px auto;'>
+                <div class="col-xs-4 span4">
+                          <input type='button' style="VISIBILITY: hidden"  class="btn btn-block btn-large" id="btn41" type="button" >
+                </div>
+                <div class="col-xs-4 span4">
+      			<input type="submit" class="btn btn-block btn-large" type="button" value="提交">
+                </div>
+                <div class="col-xs-4 span4">
+                          <input type='button'  style="VISIBILITY: hidden" class="btn btn-block btn-large" id="btn43" type="button"  >
+                </div>
+        </div>
+	<img src="mei.png" alt="Smiley face">
+
+
+	</div>
+         <!-- <input type="checkbox" name="tag3" class="btn btn-block btn-large"  id="blue" value="war3">-->
+      </fieldset>
+     <!-- <div class="row-fluid" style ='margin: 50px auto auto auto;'>
+      <div class="span12">
+      <input type="submit" class="btn btn-block btn-large" type="button" value="提交">
+	</div>
+	</div>-->
+    </form>
+  </div>
+</body>
+</html>
+			
+<script>
+var i = 0
+function changecolor11()
+{
+i++;
+var color = $("#btn11").css("background-color");
+if (i%2==1)
+	{
+	$("#btn11").css("background-color","LightCoral");
+	flag = false;
+	}
+else
+	{
+	$("#btn11").css("background-color","lightgray");
+	}
+}
+
+var i12 = 0
+function changecolor12()
+{
+i12++;
+var color = $("#btn12").css("background-color");
+if (i12%2==1)
+	{
+	$("#btn12").css("background-color","LightCoral");
+	flag = false;
+	}
+else
+	{
+	$("#btn12").css("background-color","lightgray");
+	}
+}
+var i13 = 0
+function changecolor13()
+{
+i13++;
+if (i13%2==1)
+	{
+	$("#btn13").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn13").css("background-color","lightgray");
+	}
+}
+var i14 = 0
+function changecolor14()
+{
+i14++;
+if (i14%2==1)
+	{
+	$("#btn14").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn14").css("background-color","lightgray");
+	}
+}
+
+var i21 = 0
+function changecolor21()
+{
+i21++;
+if (i21%2==1)
+	{
+	$("#btn21").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn21").css("background-color","lightgray");
+	}
+}
+
+var i22 = 0
+function changecolor22()
+{
+i22++;
+if (i22%2==1)
+	{
+	$("#btn22").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn22").css("background-color","lightgray");
+	}
+}
+
+var i23 = 0
+function changecolor23()
+{
+i23++;
+if (i23%2==1)
+	{
+	$("#btn23").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn23").css("background-color","lightgray");
+	}
+}
+
+var i24 = 0
+function changecolor24()
+{
+i24++;
+if (i24%2==1)
+	{
+	$("#btn24").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn24").css("background-color","lightgray");
+	}
+}
+
+var i31 = 0
+function changecolor31()
+{
+i31++;
+if (i31%2==1)
+	{
+	$("#btn31").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn31").css("background-color","lightgray");
+	}
+}
+
+
+var i32 = 0
+function changecolor32()
+{
+i32++;
+if (i32%2==1)
+	{
+	$("#btn32").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn32").css("background-color","lightgray");
+	}
+}
+
+var i33 = 0
+function changecolor33()
+{
+i33++;
+if (i33%2==1)
+	{
+	$("#btn33").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn33").css("background-color","lightgray");
+	}
+}
+
+var i34 = 0
+function changecolor34()
+{
+i34++;
+if (i34%2==1)
+	{
+	$("#btn34").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn34").css("background-color","lightgray");
+	}
+}
+
+var i41 = 0
+function changecolor41()
+{
+i41++;
+if (i41%2==1)
+	{
+	$("#btn41").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn41").css("background-color","lightgray");
+	}
+}
+
+var i42 = 0
+function changecolor42()
+{
+i42++;
+if (i42%2==1)
+	{
+	$("#btn42").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn42").css("background-color","lightgray");
+	}
+}
+
+var i43 = 0
+function changecolor43()
+{
+i43++;
+if (i43%2==1)
+	{
+	$("#btn43").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn43").css("background-color","lightgray");
+	}
+}
+
+var i44 = 0
+function changecolor44()
+{
+i44++;
+if (i44%2==1)
+	{
+	$("#btn44").css("background-color","LightCoral");
+	}
+else
+	{
+	$("#btn44").css("background-color","lightgray");
+	}
+}
+
+</script>
+
+

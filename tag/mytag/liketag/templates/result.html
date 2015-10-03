@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.css">
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+ 
+
+  <div data-role="content">
+      <!--<fieldset data-role="controlgroup">
+        <legend><h1>请选择您喜爱的兴趣标签：</h1></legend>-->
+	你选择的兴趣标签有		
+	<!--{{list1}}-->
+	{%for i in list1%}
+		{{i}}
+	{%endfor%}
+         <!-- <label for="red"><h1>dota</h1></label>
+          <input type="checkbox" name="favcolor" style="width:500px;height:200px"  class="btn btn-block btn-large"  id="red" value="red">
+          <label for="green"><h1>lol</h1></label>
+          <input type="checkbox" name="favcolor" class="btn btn-block btn-large" id="green" value="green">
+          <label for="blue"><h1>war3</h1></label>
+          <input type="checkbox" name="favcolor" class="btn btn-block btn-large"  id="blue" value="blue">	-->
+      <!--/fieldset>-->
+  </div>
+</div>
+
+</body>
+</html>
+			
